@@ -47,3 +47,40 @@ img{
 	text-transform: uppercase;
 	margin: 0 0 20px 0;
 }
+
+//--- Header Logo ---//
+.navbar-brand {
+  img {
+    width: 50%;
+  }
+}
+
+.wrapper {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+//--- Copyright Text ---//
+.copyright {
+  font-size: 0.7em;
+  line-height: 1.5;
+}
+
+//--- Footer Links ---//
+.footer-links {
+  a {
+    font-size: 0.8em;
+  }
+}

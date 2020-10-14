@@ -4574,7 +4574,7 @@ ul.nav-tabs li a {
 }
 
 /* End Tabs & Accordions */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 641px) and (max-width: 1024px) {
   .fact-title {
     font-size: 14px;
   }
@@ -4690,6 +4690,10 @@ ul.nav-tabs li a {
   .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
     padding: 12px 12px;
   }
+  .navbar-light .navbar-toggler {
+    margin: 24px;
+    border: 0;
+  }
 }
 
 @media (max-width: 640px) {
@@ -4784,9 +4788,6 @@ ul.nav-tabs li a {
   }
   .pricing-table-item {
     margin-bottom: 30px;
-  }
-  .footer-3 h3 {
-    margin-top: 30px;
   }
   .blog-item-wrapper {
     margin-bottom: 30px;
@@ -4979,5 +4980,46 @@ img {
   padding-top: 50px;
   text-transform: uppercase;
   margin: 0 0 20px 0;
+}
+
+.navbar-brand img {
+  width: 50%;
+}
+
+.wrapper {
+  min-height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.copyright {
+  font-size: 0.7em;
+  line-height: 1.5;
+}
+
+.footer-links a {
+  font-size: 0.8em;
 }
 /*# sourceMappingURL=main.css.map */

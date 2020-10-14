@@ -1,6 +1,6 @@
 
 // Portrait tablet to landscape and desktop 
-@media (min-width: 768px) and (max-width: 1024px) { 
+@media (min-width: 641px) and (max-width: 1024px) { 
 	.fact-title{
 		font-size: 14px;
 	}
@@ -116,6 +116,10 @@
 	.table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
 		padding: 12px 12px;
 	}
+	.navbar-light .navbar-toggler{
+		margin: 24px;
+		border: 0;
+	}	
 }
 
 @media (max-width: 640px) {
@@ -213,9 +217,6 @@
 	.pricing-table-item{
 		margin-bottom: 30px;
 	}
-	.footer-3 h3{
-		margin-top: 30px;
-	}
 	.blog-item-wrapper{
 		margin-bottom: 30px;
 	}
@@ -231,6 +232,7 @@
 	.pricing-table-block{
 		margin-bottom: 30px;
 	}
+	
 }
 
 // phones 
