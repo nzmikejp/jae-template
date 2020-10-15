@@ -3143,7 +3143,7 @@ nav#menu span.fa.fa-bars:hover {
   background: #2c3e50;
 }
 
-#carousel-area .btn-lg {
+#carousel-area .btn-md {
   margin: 10px;
 }
 
@@ -3172,9 +3172,13 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 #carousel-area .carousel-item .carousel-caption {
-  top: 28%;
-  right: 10%;
-  left: 10%;
+  top: 50%;
+  right: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  bottom: 0;
+  padding: 0;
   text-shadow: none;
 }
 
@@ -4638,9 +4642,9 @@ ul.nav-tabs li a {
     font-size: 26px;
   }
   #carousel-area .carousel-item .carousel-caption h5 {
-    margin-bottom: 3px;
+    margin-bottom: 10px;
   }
-  #carousel-area .carousel-item .btn-lg {
+  #carousel-area .carousel-item .btn-md {
     padding: 7px 10px;
     min-width: 150px;
   }
@@ -4765,16 +4769,13 @@ ul.nav-tabs li a {
   .service-box .service-content h4 {
     font-size: 14px;
   }
-  #carousel-area .carousel-item .carousel-caption {
-    top: 5%;
-  }
   #carousel-area .carousel-item .carousel-caption h3 {
     font-size: 26px;
   }
   #carousel-area .carousel-item .carousel-caption h5 {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
   }
-  #carousel-area .carousel-item .btn-lg {
+  #carousel-area .carousel-item .btn-md {
     padding: 7px 10px;
     min-width: 150px;
   }
@@ -4892,19 +4893,21 @@ ul.nav-tabs li a {
     height: 175px;
   }
   #carousel-area .carousel-item .carousel-caption {
-    top: 2%;
+    top: 0 !important;
+    -webkit-transform: translate(-50%, 2%) !important;
+            transform: translate(-50%, 2%) !important;
   }
   #carousel-area .carousel-item .carousel-caption h3 {
     font-size: 14px;
   }
   #carousel-area .carousel-item .carousel-caption h5 {
-    margin-bottom: 3px;
+    margin-bottom: 5px;
     font-size: 12px;
     line-height: 15px;
   }
-  #carousel-area .carousel-item .btn-lg {
+  #carousel-area .carousel-item .btn-md {
     padding: 4px 5px;
-    min-width: 150px;
+    width: 100%;
   }
   .carousel-indicators {
     display: none;
@@ -5064,16 +5067,23 @@ main {
   background-color: #00AEEC;
 }
 
+.btn-blue:hover {
+  background-color: #428fc4;
+  color: #fff !important;
+  -webkit-box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.1);
+}
+
 .btn-red {
   background-color: #F4192F;
-  color: white;
+  color: white !important;
 }
 
 .btn-red:hover {
-  background-color: white;
-  color: #F4192F;
-  -webkit-box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.5);
+  background-color: #ff2d42;
+  color: #fff !important;
+  -webkit-box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.1);
 }
 
 .companies {
@@ -5088,8 +5098,8 @@ main {
 
 .carousel-indicators li {
   border-radius: 50% !important;
-  width: 1em !important;
-  height: 1em !important;
+  width: 0.8rem !important;
+  height: 0.8rem !important;
 }
 
 .service-icon {
@@ -5108,7 +5118,7 @@ main {
 }
 
 .service-content h4 a {
-  font-size: 1.2em;
+  font-size: 1.3rem;
 }
 
 .service-content a {
