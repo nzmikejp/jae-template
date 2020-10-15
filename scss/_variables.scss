@@ -1,20 +1,20 @@
 // Font and Styles
-@import url('https://fonts.googleapis.com/css?family=Rubik:400,700|Montserrat:700');
-$primary-font: 'Rubik', sans-serif;
-$bold-font: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@400;600&display=swap');
+$primary-font: 'Open Sans', sans-serif;
+$bold-font: 'Quicksand', sans-serif;
 $regular: 400;
-$bold: 700;
+$bold: 600;
 $light: 300;
 $letter-spacing: 0px;
 
 // Theme Colors
-$preset: #EB586F;
-$preset-hover: #D14E63;
-$primary: #EB586F;
-$primary-hover: #D14E63;
+$preset: #F4192F;
+$preset-hover: #ff2d42;
+$primary: #F4192F;
+$primary-hover: #ff2d42;
 $success: #87c056;
 $success-hover: #74a44a;
-$info: #4da5e2;
+$info: #00AEEC;
 $info-hover: #428fc4;
 $warning: #ffcc66;
 $warning-hover: #e1b459;
@@ -47,3 +47,4 @@ $pinterest: #d2373b;
 $pinterest-hover: #ad2c2f;
 $dribbble: #ec5f94;
 $dribbble-hover: #b4446e;
+$youtube-hover: #ff0000;
